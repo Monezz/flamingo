@@ -135,8 +135,7 @@ public class DisplayFile {
 			 * in the repository at the latest revision (which is meant by a
 			 * negative revision number).
 			 */
-			repository.getFile(filePath, -1,
-					SVNProperties.wrap(fileProperties), baos);
+			repository.getFile(filePath, -1,fileProperties, baos);
 
 		} catch (SVNException svne) {
 			System.err

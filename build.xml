@@ -72,7 +72,7 @@
 		<pathelement location="${flamingo.lib.dir}/xerces_2_5_0.jar" />
 		<pathelement location="${flamingo.lib.dir}/xml-apis.jar" />
 		<pathelement location="${flamingo.lib.dir}/xml-apis-ext.jar" />
-		<pathelement location="${flamingo.lib.dir}/svnkit.jar" />
+		<pathelement location="${flamingo.lib.dir}/svnkit-1.1.0.jar" />
 		<pathelement location="${flamingo.lib.dir}/forms-1.2.0.jar" />
 		<pathelement location="${flamingo.lib.dir}/trident.jar" />
 	</path>
@@ -86,7 +86,7 @@
 
 	<path id="flamingo.module.sourcepath">
 		<dirset dir="${flamingo.src.dir}">
-			<include name="org/pushingpixels/flamingo" />
+			<include name="main/java/org/pushingpixels/flamingo" />
 		</dirset>
 	</path>
 

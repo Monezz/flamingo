@@ -78,7 +78,6 @@ public class SvgTranscoder extends SvgBaseTranscoder {
 		DocumentLoader loader = new DocumentLoader(ua);
 		batikBridgeContext = new BridgeContext(ua, loader);
 		batikBridgeContext.setDynamicState(BridgeContext.DYNAMIC);
-		ua.setBridgeContext(batikBridgeContext);
 
 		GVTBuilder builder = new GVTBuilder();
 		Document svgDoc;

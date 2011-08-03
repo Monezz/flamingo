@@ -262,7 +262,7 @@ public class BreadcrumbSvnSelector extends JBreadcrumbBar<String> {
 			String leaf) throws SVNException {
 		Map fileProperties = new HashMap();
 		ByteArrayOutputStream baos = new ByteArrayOutputStream();
-		repository.getFile(leaf, -1, SVNProperties.wrap(fileProperties), baos);
+		repository.getFile(leaf, -1, fileProperties, baos);
 		return new ByteArrayInputStream(baos.toByteArray());
 	}
 
