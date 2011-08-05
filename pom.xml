@@ -9,6 +9,8 @@
     
     <description>Flamingo Swing component suite</description>
     <url>https://github.com/kirillcool/flamengo</url>
+
+    <name>trident</name>
     
     <licenses>
         <license>
@@ -102,4 +104,11 @@
     <properties>
         <batik.version>1.6</batik.version>
     </properties>
+
+    <developers>
+        <developer>
+            <name>Kirill Grouchnikov</name>
+            <url>http://www.pushing-pixels.org</url>
+        </developer>        
+    </developers>
 </project>
